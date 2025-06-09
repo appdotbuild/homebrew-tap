@@ -1,8 +1,8 @@
 class AppBuild < Formula
   desc "CLI for building applications"
   homepage "https://app.build"
-  url "https://registry.npmjs.org/@app.build/cli/-/cli-1.16.0.tgz"
-  sha256 "7f838dc2b40cdcab641e705d891564dd36de42d4d61173da60f91960bd8a9aa2"
+  url "https://registry.npmjs.org/@app.build/cli/-/cli-1.17.0.tgz"
+  sha256 "2d74bfab5cc5e1e0b01594ca629c967816a7c0311527b57ebe2da6f43942a1ad"
   license "MIT"
 
   bottle do
