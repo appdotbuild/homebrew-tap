@@ -7,10 +7,10 @@ class AppBuild < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/appdotbuild/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1a11fd5a9d133d98f8a8793a60e6f719c74c486a1ecf1408cec5a496ab804b4a"
-    sha256 cellar: :any_skip_relocation, ventura:       "b935b662ba5eb9887d1f7f524609a742c78883e8a29004465af0e86f667ff84f"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "e95f52f3b4b29ac69d636608a7f2f6868233aeaf3ce7f8fa25f89389ef456453"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "46797fdafe4e61231371323bf9694415136af60b14707e4ecdb14f9696972300"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "41eecfee09fe9fdb90e0643936d87ed715294183157f311a38271a7553f34658"
+    sha256 cellar: :any_skip_relocation, ventura:       "b55839b81ea5aabd7418a11ad82bbae8db384b3b9919792d78483f6881cf20cb"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "c24dbe1a5abbe8a992e0f39e1751e2a04477e540745cb631fe030264d5d1c2d1"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "5d2c2a894658fb3be1c603b2cfce6217ec319e8ceed691d52c780cbb893dec5e"
   end
 
   depends_on "node"
